@@ -7,3 +7,10 @@ Jquery is js library and used to manipulate html and css in easy way. it handle 
 on any browser. jquery is single js file. visit jquery.com to download compressed or uncompressed files. 
 to use jquery, use script tag and add in html file. 
 
+// $ is alias for jquery. document is dom. means when document ready, when dom loaded.it means structure of pages
+loaded, content like images and other things take time to load. 
+
+$('#head').html(); $ for accessing get element by id. 
+$('#para').css('color:red');
+if there is any syntax error, jquery will not compete and it will let page load. 
+with jquery you can build powerful ui components beta slider,beta , carousel. 

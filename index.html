@@ -7,14 +7,19 @@
     <script src="jqueryfile.js" type="text/javascript"></script>
 
     <script>
+        // this is anonymous function
+        // $ is alias for jquery. document is dom. means when document ready, dom loaded 
         $(document).ready(function(){
-            
+            // console.log("Html CSS Bootstrap");
+            $('#head').html("this is changed with jquery");
+            $('#para').css('color:red');
         });
 
     </script>
 
 </head>
 <body>
-    
+    <h2 id="head"> I am learning jquery </h2>
+    <p id="para">This item is in paragraph</p>
 </body>
 </html>
