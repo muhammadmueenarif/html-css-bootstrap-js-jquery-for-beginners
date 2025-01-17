@@ -23,3 +23,31 @@ $('#head').html("this is changed text").css('color:red');
 we can store element in variable and apply functions on variable. 
 let changes = $('#head');
 changes.html("this is changed text").css('color:red');
+
+we can also use add and remove elements.
+$('h1').addClass("m-4");
+$('h1').removeClass("m-4");
+
+
+we can use .children() to see the children elemnts of tag. like 
+$('tbody').children();
+
+we change color of all children
+$('tbody').children().css('color: green');
+
+we can use show and hide functions.
+$('#head').hide();
+$('#head').show();
+
+we can also use toggle function like if it is shown it will be hidden and if hidden it will be shown.
+$('#head').toggle();
+
+we can use events functions easily with jquery. 
+
+$('#head').click(function(){
+    alert("hello");
+    });
+    // we can also use on function
+    $('#head').on('click',function(){
+        alert("hello");
+        });

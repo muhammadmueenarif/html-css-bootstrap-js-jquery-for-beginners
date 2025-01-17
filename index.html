@@ -22,6 +22,18 @@
             console.log(headText);
             //if we use without .html in below line then we get undefined error.
             headText.html(headText.html() + " with more text").css('color','red');
+
+            //first toggle will hide the text and second toggle will show the text.
+            $('#head').toggle(); 
+            $('#head').toggle();
+
+            $('#head').click(function () {
+                alert("hello");
+            });
+            // we can also use on function
+            $('#head').on('click', function () {
+                alert("hello");
+            });
         });
 
     </script>
