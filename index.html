@@ -15,9 +15,13 @@
             // $('#para').css('color:red');
             
             //use both things at a time.
-            $('#head').html("this is changed with jquery").css('color','red');
+            // $('#head').html("this is changed with jquery").css('color','red');
 
-
+            //store in variable and use it. 
+            let headText = $('#head');
+            console.log(headText);
+            //if we use without .html in below line then we get undefined error.
+            headText.html(headText.html() + " with more text").css('color','red');
         });
 
     </script>
