@@ -11,8 +11,13 @@
         // $ is alias for jquery. document is dom. means when document ready, dom loaded 
         $(document).ready(function(){
             // console.log("Html CSS Bootstrap");
-            $('#head').html("this is changed with jquery");
-            $('#para').css('color:red');
+            // $('#head').html("this is changed with jquery");
+            // $('#para').css('color:red');
+            
+            //use both things at a time.
+            $('#head').html("this is changed with jquery").css('color','red');
+
+
         });
 
     </script>

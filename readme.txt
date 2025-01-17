@@ -14,3 +14,12 @@ $('#head').html(); $ for accessing get element by id.
 $('#para').css('color:red');
 if there is any syntax error, jquery will not compete and it will let page load. 
 with jquery you can build powerful ui components beta slider,beta , carousel. 
+
+Styling with jquery. 
+we can try javascript features directly in the console. 
+instead of fetching element twice we can fetch in once and apply both operations at a time.
+$('#head').html("this is changed text").css('color:red');
+
+we can store element in variable and apply functions on variable. 
+let changes = $('#head');
+changes.html("this is changed text").css('color:red');
